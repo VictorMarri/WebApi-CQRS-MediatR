@@ -1,4 +1,4 @@
-﻿namespace WebApiCQRS.CQRS.Command.Responses
+﻿namespace WebApiCQRS.CQRS.Commands.Responses
 {
     //Aqui vai ficar os dados que queremos retornar para a tela na hora da requisição e do uso do CQRS
     //Não podemos retornar a entidade ClienteModel pq ela nao tem Data, e nem podemos retornar tambem CreateClienteRequest pq nao temos nem ID nem Data

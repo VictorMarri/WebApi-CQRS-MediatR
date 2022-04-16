@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
-using WebApiCQRS.CQRS.Command.Requests;
-using WebApiCQRS.CQRS.Queries;
+using WebApiCQRS.CQRS.Commands.Requests;
+using WebApiCQRS.CQRS.Queries.Requests;
 using WebApiCQRS.Interfaces;
 
 namespace WebApiCQRS.Controllers

@@ -1,5 +1,5 @@
-﻿using WebApiCQRS.CQRS.Command.Requests;
-using WebApiCQRS.CQRS.Command.Responses;
+﻿using WebApiCQRS.CQRS.Commands.Requests;
+using WebApiCQRS.CQRS.Commands.Responses;
 using WebApiCQRS.Infrastructure;
 using WebApiCQRS.Interfaces;
 using WebApiCQRS.Models;

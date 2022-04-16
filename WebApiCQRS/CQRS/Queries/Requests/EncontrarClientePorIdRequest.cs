@@ -1,4 +1,4 @@
-﻿namespace WebApiCQRS.CQRS.Queries
+﻿namespace WebApiCQRS.CQRS.Queries.Requests
 {
     //Classe que vai representar o dado passado na request de busca (query)
     public class EncontrarClientePorIdRequest

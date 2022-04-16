@@ -1,4 +1,4 @@
-﻿using WebApiCQRS.CQRS.Queries;
+﻿using WebApiCQRS.CQRS.Queries.Requests;
 using WebApiCQRS.CQRS.Queries.Responses;
 
 namespace WebApiCQRS.Interfaces
