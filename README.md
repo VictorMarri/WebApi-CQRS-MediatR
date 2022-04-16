@@ -19,6 +19,8 @@ Mas ai, o consultório evoluiu pra uma clínica, e agora temos 10 atendentes. Ag
 
 E agora sua clinica cresceu muito, e a sua aplicação roda em diversas clinicas e consultórios, e agora, **quem marca a consulta é o próprio cliente.** Isso gerou uma carga enorme de dados, isso gerou **muita concorrência, envolvendo processos simultâneos.**
 
+Então temos que ter uma alternativa para tirar o gargalo que a concorrencia está causando ou irá causar. É aí que entra a ideia do CQRS.
+
 # Entendendo o problema
 
 Nas arquiteturas tradicionais, o mesmo modelo de dados é usado pra consultar e atualizar um banco de dados. Isso é algo até certo ponto simples, e funciona muito bem pra um CRUD, que seria uma camada ‘mais fina’ em cima do banco de dados.
