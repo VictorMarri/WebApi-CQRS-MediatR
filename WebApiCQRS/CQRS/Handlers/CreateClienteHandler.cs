@@ -22,7 +22,7 @@ namespace WebApiCQRS.CQRS.Handlers
         {
             if (command == null) throw new ArgumentNullException("A Request veio vazia, por gentileza preenche-la");
 
-            var cliente = new Cliente(command.Nome, command.Email); 
+            var cliente = new Cliente(command.Nome, command.Email);
 
             _repository.Clientes.Add(cliente);
 
@@ -32,7 +32,7 @@ namespace WebApiCQRS.CQRS.Handlers
                 Nome = cliente.Nome,
                 Email = cliente.Email,
                 Data = DateTime.Now
-            };           
+            };
         }
     }
 }
