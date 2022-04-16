@@ -1,3 +1,12 @@
+### Fontes:
+As fontes que usei para basear meus estudos e esse 'artigo' foram:
+- https://martinfowler.com/bliki/CQRS.html -> Martin Fowler
+- https://docs.microsoft.com/pt-br/azure/architecture/patterns/cqrs -> Microsoft Docs
+- https://www.youtube.com/watch?v=cw0oVKCK4iU -> Dicionario do Programador (Youtube)
+- https://www.eventstore.com/cqrs-pattern#:~:text=CQRS%20is%20an%20architectural%20pattern,which%20is%20Command%20Query%20Separation.
+- https://www.macoratti.net/20/08/c_cqrs1.htm -> Macoratti
+
+
 # CQRS
 
 ![](Imagens/cqrs-diagram.png)
@@ -80,11 +89,3 @@ Quando utilizado com o padrão de eventos, o repositório de eventos é o modelo
 
 - Qualquer sistema onde os repositorios de gravaçã e leitura são separados, **os sistemas serão consistentes. POREM, haverá algum atraso entre o evento gerado e o armazenamento de dados sendo atualizado**
 - O Padrão adiciona  certa complexidade no codigo, e ele deve ser criado para iniciar e tratar eventos, e montar ou atualizar exibições ou objetos apropriados exigidos por consultas, ou um modelo de leitura. **A complexidade da implementação de um padrão CQRS quando alinhado com padrão de eventos pode dificultar a implementação e requer uma abordagem diferentes pra concepção de sistemas.**
-
-## Fontes:
-As fontes que usei para basear meus estudos e esse 'artigo' foram:
-- https://martinfowler.com/bliki/CQRS.html -> Martin Fowler
-- https://docs.microsoft.com/pt-br/azure/architecture/patterns/cqrs -> Microsoft Docs
-- https://www.youtube.com/watch?v=cw0oVKCK4iU -> Dicionario do Programador (Youtube)
-- https://www.eventstore.com/cqrs-pattern#:~:text=CQRS%20is%20an%20architectural%20pattern,which%20is%20Command%20Query%20Separation.
-- https://www.macoratti.net/20/08/c_cqrs1.htm -> Macoratti
