@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiMediatR", "WebApiMediatR\WebApiMediatR.csproj", "{4F78183C-2398-49FC-BA95-92360282F44F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiCQRS", "WebApiCQRS\WebApiCQRS.csproj", "{839161EE-3CC5-40F7-B9FE-84DFA22CC4DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F78183C-2398-49FC-BA95-92360282F44F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F78183C-2398-49FC-BA95-92360282F44F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F78183C-2398-49FC-BA95-92360282F44F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F78183C-2398-49FC-BA95-92360282F44F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{839161EE-3CC5-40F7-B9FE-84DFA22CC4DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{839161EE-3CC5-40F7-B9FE-84DFA22CC4DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{839161EE-3CC5-40F7-B9FE-84DFA22CC4DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{839161EE-3CC5-40F7-B9FE-84DFA22CC4DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E7AC881-DFD6-4F86-98E8-063B033889C0}
+	EndGlobalSection
+EndGlobal
